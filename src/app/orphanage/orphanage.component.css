@@ -1,0 +1,52 @@
+section .row .col .card {
+    text-align: center;
+}
+section .heading h2{
+    text-align: center;
+    margin-top: 8%;
+}
+
+section .row .col .card  h1{
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+section .row .col .card  .card-body p{
+    font-size: 0.9rem;
+}
+section .row .col .card  .card-body button{
+    background-color:rgb(146, 159, 183);
+    border: none;
+    border-radius: 5px;
+    color: rgb(19, 13, 12);
+    font-weight: 600px;
+    padding: 2px 4px;
+    transition: 0.6s;
+    width: 100px;
+    height: 50px;
+}
+section .row .col .card  .card-body button:hover{
+    background-color:ghostwhite ;
+}
+section .row{
+    margin: 100px;
+    margin-top: 40px;
+    
+    
+}
+section .button{
+    width: auto;
+    height: 100px;
+    background-color: rgb(237, 226, 226);
+    text-align:center;
+    padding-top:26px;
+    
+    
+}
+section .heading .searchbar{
+ margin-left:430px;
+ margin-top: 40px;
+ 
+ 
+    
+}

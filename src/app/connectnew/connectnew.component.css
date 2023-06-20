@@ -1,0 +1,11 @@
+section {
+    position :fix;
+}
+section .col-lg-6 .card-body .row
+{
+    height:auto;
+    padding:auto;
+}
+section button{
+    margin-left:230px;
+}
