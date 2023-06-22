@@ -25,7 +25,7 @@ export class SponsorComponent {
     {
        image:'../assets/images/orphanprofile3.webp',
        alt:'sorry',
-       desc:'hii iam Rahul came to Zion Childrens Home when iam  five. He loves to play games with the other boys. Vigo just began to attend school and enjoys computers and sports, particularly soccer. He dreams of becoming a soccer player one day.',
+       desc:'hii iam Rahul came to Zion Childrens Home when iam  five. Vigo just began to attend school and enjoys computers and sports, particularly soccer. He dreams of becoming a soccer player one day.',
        title:'Rahul 12years old',
        button:'Donate'},
        {
@@ -42,7 +42,7 @@ export class SponsorComponent {
           button:'Donate'},{
             image:'../assets/images/orphanprofile.png',
             alt:'sorry',
-            desc:'hii iam Nihal a bright and joyful young boy. he is always laughing with her friends, singing and dancing. When she grows up, he would love to become a doctor and help the people who need it most in her community.',
+            desc:'hii iam Nihal a bright and joyful young boy. he is always laughing with her friends, singing and dancing. When she grows up, he would love to become a doctor and help the people who need it most in his community.He wants to fulfill his dream',
             title:'Nihal 15years old',
             button:'Donate'},{
               image:'../assets/images/orphanprofile6.jpg',

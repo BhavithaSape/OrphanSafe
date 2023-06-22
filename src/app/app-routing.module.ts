@@ -11,6 +11,7 @@ import { DonateComponent } from './donate/donate.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ConnectnewComponent } from './connectnew/connectnew.component';
 import { PaymentComponent } from './payment/payment.component';
+import { LogoutComponent } from './logout/logout.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
   {path:'donate',component:DonateComponent},
   {path:'contact-us',component:ContactUsComponent},
   {path:'connectnew',component:ConnectnewComponent},
-  {path:'payment',component:PaymentComponent}
+  {path:'payment',component:PaymentComponent},
+  {path:'logout',component:LogoutComponent}
 
 ];
 

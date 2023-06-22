@@ -29,6 +29,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ConnectnewComponent } from './connectnew/connectnew.component';
 import { PageComponent } from './page/page.component';
 import { PaymentComponent } from './payment/payment.component';
+import { LogoutComponent } from './logout/logout.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +52,8 @@ import { PaymentComponent } from './payment/payment.component';
     ContactUsComponent,
     ConnectnewComponent,
     PageComponent,
-    PaymentComponent
+    PaymentComponent,
+    LogoutComponent
 
   ],
   imports: [

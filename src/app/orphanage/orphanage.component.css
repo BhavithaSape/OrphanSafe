@@ -7,7 +7,7 @@ section .heading h2{
 }
 
 section .row .col .card  h1{
-    color: rgb(255, 0, 0);
+    color: rgb(12, 163, 80);
     font-size: 1.5rem;
     padding-top: 15px;
 }
@@ -15,10 +15,10 @@ section .row .col .card  .card-body p{
     font-size: 0.9rem;
 }
 section .row .col .card  .card-body button{
-    background-color:rgb(146, 159, 183);
+    background-color:#1961BF;
     border: none;
     border-radius: 5px;
-    color: rgb(19, 13, 12);
+    color: rgb(245, 240, 240);
     font-weight: 600px;
     padding: 2px 4px;
     transition: 0.6s;
@@ -28,12 +28,12 @@ section .row .col .card  .card-body button{
 section .row .col .card  .card-body button:hover{
     background-color:ghostwhite ;
 }
-section .row{
+/* section .row{
     margin: 100px;
     margin-top: 40px;
     
     
-}
+} */
 section .button{
     width: auto;
     height: 100px;

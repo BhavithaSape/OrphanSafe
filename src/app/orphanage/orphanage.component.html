@@ -7,18 +7,12 @@
             of orphans is an incredibly noble and compassionate endeavor. Orphans are children who have lost their parents 
             or have been abandoned, 
             and they often find themselves in vulnerable and challenging circumstances.</h6> 
-        <div class="searchbar">
-        <form class="d-flex col-md-6">
-            <input class="form-control me-8" type="search" placeholder="Search orphanage location" >
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form></div>
-
       <div class="row row-col-1 row-cols-md-3 g-4">
-          <div class="col" *ngFor="let img of Images">
+          <div class="col" *ngFor="let img of Images" >
               <div class="card shadow-lg" >
-                 <img [src]="img.image" [alt]="img.alt" >
+                 <img [src]="img.image" [alt]="img.alt" style="height: 300px;">
                     
-                        <div class="card-body">
+                        <div class="card-body" >
                           <h1>{{img.desc}}</h1>
                            <!-- <button  (click)="onclick()"> {{img.button}}</button>  -->
                          <div class="button">

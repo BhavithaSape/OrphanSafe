@@ -31,7 +31,7 @@ export class OrphanageComponent {
         {
           image:'../assets/images/orphanageimage4.jpeg.jpg',
           alt:'sorry',
-          desc:'Gouthami Jeeva Karunya Sangham',
+          desc:'Gouthami Jeeva  Sangham',
         
           button:'connect'},{
             image:'../assets/images/orphanageimage3.jpeg.jpg',

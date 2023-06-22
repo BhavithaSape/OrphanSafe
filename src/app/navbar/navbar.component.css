@@ -1,7 +1,12 @@
+.navbar{
+    padding:0%;
+}
+
 .nav-item{
     margin-right: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    
     
 }
 
@@ -24,7 +29,7 @@ h3 {
 
 ul {
     margin: 0 10%;
-    padding: 10px 0px 10px 100px;
+   padding:0%;
     display: flex;
     background: transparent;
 }
@@ -39,7 +44,7 @@ ul li a {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
-    color: black;
+    color: rgb(246, 246, 246);
     position: relative;
 
 }
@@ -58,4 +63,15 @@ ul li a::before {
 ul li a:hover::before {
     width: 50%;
     transform: translateX(100%);
+}
+
+@media screen {
+    .nav-brand{
+        padding-left: 50%;
+    }
+    
+}
+
+ nav .container-fluid .nav-brand{
+    color: aliceblue;
 }
