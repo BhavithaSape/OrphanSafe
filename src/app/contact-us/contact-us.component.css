@@ -12,20 +12,33 @@
     height:500px;
     margin:50px 50px;
 } 
-.section .div1{
+ .div1{
    
     width:300px;
     padding-top:70px;
+    border:1px solid black ;
+    border-radius:20px;
 }
-.section .div2 img{
-    width:70px;
-    height:70px;
-    margin-left: 100px;;
+ .div2 img{
+    width: 50px;
+    height:50px;
+    margin-left: 43%;
  
 }
-.section .div2 p{
+.div2 p,h4{
     text-align:center;
 }
 .section div .text{
     margin-left:20px;
+}
+/* div .col-lg-8{
+    width:600px;
+    border:1px solid black ;
+      padding-left:10%; 
+     border-radius:20px;
+   
+
+} */
+div .col-lg-8 .col-md-9 h2{
+    padding-left: 10px;
 }
